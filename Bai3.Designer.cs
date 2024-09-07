@@ -40,16 +40,18 @@
             // 
             // txtnhohon
             // 
+            txtnhohon.Enabled = false;
             txtnhohon.Font = new Font("Tahoma", 13F);
-            txtnhohon.Location = new Point(622, 686);
+            txtnhohon.Location = new Point(571, 406);
             txtnhohon.Name = "txtnhohon";
-            txtnhohon.Size = new Size(684, 49);
+            txtnhohon.Size = new Size(735, 49);
             txtnhohon.TabIndex = 2;
             // 
             // txtkt
             // 
+            txtkt.Enabled = false;
             txtkt.Font = new Font("Tahoma", 13F);
-            txtkt.Location = new Point(571, 459);
+            txtkt.Location = new Point(571, 313);
             txtkt.Name = "txtkt";
             txtkt.Size = new Size(735, 49);
             txtkt.TabIndex = 2;
@@ -68,7 +70,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 13F);
-            label2.Location = new Point(254, 230);
+            label2.Location = new Point(225, 228);
             label2.Name = "label2";
             label2.Size = new Size(129, 42);
             label2.TabIndex = 1;
@@ -78,7 +80,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 13F);
-            label3.Location = new Point(254, 482);
+            label3.Location = new Point(225, 320);
             label3.Name = "label3";
             label3.Size = new Size(222, 42);
             label3.TabIndex = 1;
@@ -88,7 +90,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 13F);
-            label4.Location = new Point(254, 693);
+            label4.Location = new Point(225, 409);
             label4.Name = "label4";
             label4.Size = new Size(321, 42);
             label4.TabIndex = 1;
@@ -108,7 +110,7 @@
             btnthoat.BackColor = Color.Red;
             btnthoat.Font = new Font("Tahoma", 13F);
             btnthoat.ForeColor = Color.White;
-            btnthoat.Location = new Point(745, 863);
+            btnthoat.Location = new Point(689, 518);
             btnthoat.Name = "btnthoat";
             btnthoat.Size = new Size(150, 74);
             btnthoat.TabIndex = 3;
@@ -131,6 +133,7 @@
             Controls.Add(label1);
             Name = "Bai3";
             Text = "Bai3";
+            Load += Bai3_Load;
             ResumeLayout(false);
             PerformLayout();
         }
