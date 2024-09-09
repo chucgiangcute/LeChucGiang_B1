@@ -44,7 +44,7 @@
             txtnhohon.Font = new Font("Tahoma", 13F);
             txtnhohon.Location = new Point(571, 406);
             txtnhohon.Name = "txtnhohon";
-            txtnhohon.Size = new Size(735, 49);
+            txtnhohon.Size = new Size(1013, 49);
             txtnhohon.TabIndex = 2;
             // 
             // txtkt
@@ -60,6 +60,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 24F);
+            label1.ForeColor = Color.FromArgb(0, 192, 0);
             label1.Location = new Point(489, 42);
             label1.Name = "label1";
             label1.Size = new Size(896, 77);
@@ -70,6 +71,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 13F);
+            label2.ForeColor = Color.FromArgb(0, 192, 192);
             label2.Location = new Point(225, 228);
             label2.Name = "label2";
             label2.Size = new Size(129, 42);
@@ -80,6 +82,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 13F);
+            label3.ForeColor = Color.FromArgb(0, 192, 192);
             label3.Location = new Point(225, 320);
             label3.Name = "label3";
             label3.Size = new Size(222, 42);
@@ -90,6 +93,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 13F);
+            label4.ForeColor = Color.FromArgb(0, 192, 192);
             label4.Location = new Point(225, 409);
             label4.Name = "label4";
             label4.Size = new Size(321, 42);
@@ -122,6 +126,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Gray;
             ClientSize = new Size(1701, 987);
             Controls.Add(btnthoat);
             Controls.Add(txtkt);

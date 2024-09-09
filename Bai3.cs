@@ -30,12 +30,12 @@ namespace LeChucGiang_buoi1
             n = Convert.ToInt32(txtn.Text);
             if (SNT(n))
                 txtkt.Text = n + " là số nguyên tố";
-            else txtkt.Text = n + " không phải là số nguyên tố!!!";
+            else txtkt.Text = n + " không phải là số nguyên tố";
 
 
             List<int> list = new List<int>();
             string chuoi = "";
-
+             
             for (int i = 2; i < n; i++)
             {
                 if (SNT(i))
@@ -65,7 +65,7 @@ namespace LeChucGiang_buoi1
                     if (n % i == 0)
                     {
                         return false;
-                        break;
+                        
                     }
                 }
             } 
