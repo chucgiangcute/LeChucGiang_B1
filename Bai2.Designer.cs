@@ -154,14 +154,16 @@
             // 
             // txtvuanhap
             // 
+            txtvuanhap.Enabled = false;
             txtvuanhap.Font = new Font("Tahoma", 13F);
-            txtvuanhap.Location = new Point(458, 325);
+            txtvuanhap.Location = new Point(471, 341);
             txtvuanhap.Name = "txtvuanhap";
             txtvuanhap.Size = new Size(493, 49);
             txtvuanhap.TabIndex = 3;
             // 
             // txttong
             // 
+            txttong.Enabled = false;
             txttong.Font = new Font("Tahoma", 13F);
             txttong.Location = new Point(611, 426);
             txttong.Name = "txttong";
@@ -170,6 +172,7 @@
             // 
             // txtchan
             // 
+            txtchan.Enabled = false;
             txtchan.Font = new Font("Tahoma", 13F);
             txtchan.Location = new Point(402, 540);
             txtchan.Name = "txtchan";
@@ -178,8 +181,9 @@
             // 
             // txtle
             // 
+            txtle.Enabled = false;
             txtle.Font = new Font("Tahoma", 13F);
-            txtle.Location = new Point(1133, 540);
+            txtle.Location = new Point(1124, 540);
             txtle.Name = "txtle";
             txtle.Size = new Size(340, 49);
             txtle.TabIndex = 3;
